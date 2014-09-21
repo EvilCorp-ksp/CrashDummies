@@ -25,7 +25,7 @@ namespace CrashDummies
             {
                 if (res.info.name == "CrashDummies")
                 {
-                    res.amount = res.amount - 1;
+                    res.amount = 0;
                 }
             }
          

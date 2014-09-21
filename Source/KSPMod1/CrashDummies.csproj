@@ -7,8 +7,8 @@
     <ProjectGuid>{09719CDA-2108-4100-873B-86BFED04BF80}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KSPMod1</RootNamespace>
-    <AssemblyName>KSPMod1</AssemblyName>
+    <RootNamespace>CrashDummies</RootNamespace>
+    <AssemblyName>CrashDummies</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -38,7 +38,6 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
@@ -47,7 +46,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CrashDummies.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
